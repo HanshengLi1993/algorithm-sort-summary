@@ -13,7 +13,7 @@
 - 比较排序的优势是，适用于各种规模的数据，也不在乎数据的分布，都能进行排序。可以说，比较排序适用于一切需要排序的情况。
 - 非比较排序只要确定每个元素之前的已有的元素个数即可，所有一次遍历即可解决。算法时间复杂度O(n)。非比较排序时间复杂度底，但由于非比较排序需要占用空间来确定唯一位置。所以对数据规模和数据分布有一定的要求。
 
-![](https://github.com/HanshengLi1993/algorithm-sort-summary/tree/master/images/summary.png)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/summary.png)
 
 ### 算法复杂度
 
