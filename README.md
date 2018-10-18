@@ -13,7 +13,7 @@
 - 比较排序的优势是，适用于各种规模的数据，也不在乎数据的分布，都能进行排序。可以说，比较排序适用于一切需要排序的情况。
 - 非比较排序只要确定每个元素之前的已有的元素个数即可，所有一次遍历即可解决。算法时间复杂度O(n)。非比较排序时间复杂度底，但由于非比较排序需要占用空间来确定唯一位置。所以对数据规模和数据分布有一定的要求。
 
-![]()
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/tree/master/images/summary.png)
 
 ### 算法复杂度
 
@@ -62,7 +62,7 @@
 
 ### 动图演示
 
-![avatar]()
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/BubbleSort.gif)
 
 ### 代码实现
 
@@ -97,7 +97,7 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 
 ### 动图演示
 
-![](.\algorithm-sort-summary\images\SelectionSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/SelectionSort.gif)
 
 ### 代码实现
 
@@ -131,7 +131,7 @@ def select_sort(slist):
 
 ### 动图演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\InsertSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/InsertSort.gif)
 
 ### 代码实现
 
@@ -161,7 +161,7 @@ def insert_sort(ilist):
 
 ### 动图演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\ShellSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/ShellSort.gif)
 
 ### 代码实现
 
@@ -195,7 +195,7 @@ def shell_sort(slist):
 
 ### 动图演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\MergeSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/MergeSort.gif)
 
 ### 代码实现
 
@@ -239,7 +239,7 @@ def merge(left, right):
 
 ### 动图演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\QuickSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/QuickSort.gif)
 
 ### 代码实现
 
@@ -279,7 +279,7 @@ def qsort(qlist, left, right):
 
 ### 动图演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\HeapSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/HeapSort.gif)
 
 ### 代码实现
 
@@ -325,7 +325,7 @@ def max_heapify(hlist, start, end):
 
 ### 动图演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\RadixSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/RadixSort.gif)
 
 ### 代码实现
 
@@ -373,7 +373,7 @@ def radix_sort(rlist, radix=10):
 
 ### 动图演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\CountingSort.gif)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/CountingSort.gif)
 
 ### 代码实现
 
@@ -411,7 +411,7 @@ def counting_sort(clist):
 
 ### 图片演示
 
-![](C:\Users\F1333239\Desktop\2018-10-17\algorithm-sort-summary\images\BucketSort.png)
+![](https://github.com/HanshengLi1993/algorithm-sort-summary/blob/master/images/BucketSort.png)
 
 ### 代码实现
 
