@@ -36,11 +36,11 @@ def bubble_sort_v3(blist):
     """
     endPoint = length = len(blist)
     for i in range(length):
-        flag = True
-        for j in range(1, endPoint):
+        flag = True  # 判断数据在本次遍历中是否交换过，若未发生交换，则余下的数据已经排好序，算法完成
+        for j in range(1, endPoint):  # endPoint为上次最后发生数据交换的位置
             if blist[j - 1] > blist[j]:
                 blist[j - 1], blist[j] = blist[j], blist[j - 1]
-                endPoint = j
+                endPoint = j  # 记录每次发生数据交换的位置
                 flag = False
         if flag:
             break

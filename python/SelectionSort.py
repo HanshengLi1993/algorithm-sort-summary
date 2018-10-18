@@ -3,11 +3,11 @@
 
 def select_sort(slist):
     for i in range(len(slist)):
-        x = i
+        minPoint = i  # minPoint本次遍历最小数据指针
         for j in range(i, len(slist)):
-            if slist[j] < slist[x]:
-                x = j
-        slist[i], slist[x] = slist[x], slist[i]
+            if slist[j] < slist[minPoint]:
+                minPoint = j
+        slist[i], slist[minPoint] = slist[minPoint], slist[i]  # 将最小数据交换到本次遍历 头部
     return slist
 
 
