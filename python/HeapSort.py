@@ -5,7 +5,7 @@ def heap_sort(hlist):
     length = len(hlist)
     first = int(length / 2 - 1)  # 最后一个非叶子节点
     for start in range(first, -1, -1):  # 构造大根堆
-        max_heapify(hlist, start, length - 1)  # 由于列表的浅拷贝，hlist已经是大根堆
+        max_heapify(hlist, start, length - 1)  # list并不在函数调用结束后就释放资源。当它作为函数参数时，相当于全局变量，在函数预处理时就已经分配了内存空间，hlist已经是大根堆
     for end in range(length - 1, 0, -1):  # 堆排，将大根堆转换成有序数组
         # 将大根堆的根节点交换到最后，并排除到排序之外
         hlist[end], hlist[0] = hlist[0], hlist[end]

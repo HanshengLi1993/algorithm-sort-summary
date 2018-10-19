@@ -26,7 +26,7 @@ def bucket_sort(blist, bucketSize=5):
     # 将排序好的数据装入并返回
     sort_list = []
     for i in range(bucketCount):
-        insert_sort(buckets[i])  # 对个桶进行排序，注意数组的浅拷贝
+        insert_sort(buckets[i])  # 对个桶进行排序，list并不在函数调用结束后就释放资源。当它作为函数参数时，相当于全局变量，在函数预处理时就已经分配了内存空间
         for j in range(len(buckets[i])):
             sort_list.append(buckets[i][j])
     return sort_list
